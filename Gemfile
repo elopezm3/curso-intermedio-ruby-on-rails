@@ -63,7 +63,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
-  gem 'database_cleaner'
+  gem 'database_cleaner-mongoid'
   gem 'faker'
   gem 'capybara'
   gem 'mongoid-rspec'
